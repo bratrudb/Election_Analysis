@@ -10,11 +10,10 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 4. The total number of votes each candidate won
 5. The winner of the election based on popular vote.
 
-<<<<<<< HEAD
 ##Resources
   - Data Source: election_results.csv
   - Software: Python 3.6.7, Visual Studio Code
-=======
+
 ## Election Audit Results
   - How many votes were cast in this congressional election?
       - 369,711 votes
@@ -38,7 +37,6 @@ A Colorado Board of Elections employee has given you the following tasks to comp
         Raymon Anthony Doane: 3.1% (11,606)
     - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
        - Diana DeGette won the election with 272,892 or 73.8 percent of the total votes.
->>>>>>> f939ab0fe569ef2826d7161a400dc4e5d19a9cd3
 
 ## Election-Audit Summary
 
