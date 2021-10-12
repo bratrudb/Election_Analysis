@@ -10,7 +10,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 4. The total number of votes each candidate won
 5. The winner of the election based on popular vote.
 
-##Resources
+## Resources
   - Data Source: election_results.csv
   - Software: Python 3.6.7, Visual Studio Code
 
