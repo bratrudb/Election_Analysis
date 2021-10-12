@@ -35,7 +35,8 @@ A Colorado Board of Elections employee has given you the following tasks to comp
         Diana DeGette: 73.8% (272,892)
         
         Raymon Anthony Doane: 3.1% (11,606)
-    - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+   
+   - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
        - Diana DeGette won the election with 272,892 or 73.8 percent of the total votes.
 
 ## Election-Audit Summary
