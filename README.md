@@ -99,3 +99,33 @@ with open(file_to_load) as election_data:
         # Add a vote to that state's vot count.
         state_votes[state_name] += 1
 ```
+You can also modify the code to review election results on a more granular level. Using the same for loop and nested if statements, you can find the number of votes each candidate received in each individual county. In the following example, the code is provided to find each candidate's vote counts in Denver specifically. As with the code used to get the original county and candidate data, you begin by creating a list and dictionary to hold the Denver candidate options and number of votes for each. The following code would then be placed inside of the original for loop.
+
+```python
+
+        # Get candidate and county from each row
+        candidate = row[2]
+        county_title = row[1]
+        
+        #If statement looking for Denver in row
+        if county_title == "Denver":
+            
+            #Nested if statement to find if candidate is already in the Denver_options list            
+            if candidate not in Denver_options:    
+                
+                #If not, append candidate
+                Denver_options.append(candidate)
+
+                #Track each candidates vote
+                Denver_votes[candidate] = 0
+
+            #Add to each candidate's Denver total
+            Denver_votes[candidate] += 1
+```
+You can then print the results of each candidate's vote count in Denver, which returns:
+
+1. Charles Casper Stockham: 57,188
+
+2. Diana DeGette: 239,282
+
+3. Raymon Anthony Doane: 9,585
